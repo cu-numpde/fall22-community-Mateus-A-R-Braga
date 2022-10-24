@@ -10,9 +10,9 @@ primary audience is.*
 
 | Description | Your answer |
 |---------|-----------|
-| Repository URL |    |
-| Main/documentation website |    |
-| Year project was started |   |
+| Repository URL |  https://github.com/clawpack/clawpack  |
+| Main/documentation website |  http://www.clawpack.org/  |
+| Year project was started |  1994  |
 | Number of contributors in the past year | `git shortlog -se --since=2021-10-01` may be useful |
 | Number of contributors in the lifetime of the project |   |
 | Number of distinct affiliations | 1, 2-5, 5-10, >10 |
