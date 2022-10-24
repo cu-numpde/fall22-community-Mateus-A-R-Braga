@@ -6,7 +6,7 @@ Please edit this file and push to your repository.
 *Write a paragraph describing what the software does and who its
 primary audience is.*
 
-Clawpack stands for Conservation Laws Package. The Clawpack collection is based on the finite volume method is comprised of a number of  solvers, according to http://www.clawpack.org/ the four solvers avaiable are as follows:
+Clawpack stands for Conservation Laws Package. The Clawpack collection is based on the finite volume method and is comprised of a number of  solvers, according to http://www.clawpack.org/ the four solvers avaiable are as follows:
 
 * Classic (single grid solvers in Fortran)
 * AMRClaw Description and Detailed Contents (adaptive mesh refinement in Fortran)
@@ -15,7 +15,20 @@ Clawpack stands for Conservation Laws Package. The Clawpack collection is based 
 
 As the above list indicates, Clawpack is written in both Fortran and Python. 
 
+The software solves both linear and nonlinear hyperbolic systems of equations, specifically conservation laws. Provided a Riemann solver is given 
 
+
+Key features include: 
+* Solution of general hyperbolic PDEs provided a Riemann solver is given 
+* Adaptive mesh refinement included in AMRClaw and GeoClaw 
+* Parallelism scalable to tens of thousands of cores or more, included in PyClaw 
+
+
+** Riemann olvers for many common applications are bundled with the software
+
+** high-resolution Godunov type methods using limiters (flux limiters?)
+
+** These finite volume methods require a “Riemann solver” to resolve the jump discontinuity at the interface between two grid cells into waves propagating into the neighboring cells. 
 
 
 
