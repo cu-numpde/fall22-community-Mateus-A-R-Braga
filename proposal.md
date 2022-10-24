@@ -1,10 +1,26 @@
 # Community Software Analysis Proposal
 Please edit this file and push to your repository.
 
-## Software: *NAME_OF_PACKAGE_HERE*
+## Software: Clawpack
 
 *Write a paragraph describing what the software does and who its
 primary audience is.*
+
+Clawpack stands for Conservation Laws Package. The Clawpack collection is based on the finite volume method is comprised of a number of  solvers, according to http://www.clawpack.org/ the four solvers avaiable are as follows:
+
+* Classic (single grid solvers in Fortran)
+* AMRClaw Description and Detailed Contents (adaptive mesh refinement in Fortran)
+* GeoClaw Description and Detailed Contents (geophysical flows with AMR, in Fortran)
+* PyClaw (Python version of solvers)
+
+As the above list indicates, Clawpack is written in both Fortran and Python. 
+
+
+
+
+
+
+
 
 ### Stats
 
@@ -14,11 +30,11 @@ primary audience is.*
 | Main/documentation website |  http://www.clawpack.org/  |
 | Year project was started |  1994  |
 | Number of contributors in the past year | `git shortlog -se --since=2021-10-01` may be useful *** |
-| Number of contributors in the lifetime of the project | ***  |
-| Number of distinct affiliations | 1, 2-5, 5-10, >10 *** |
-| Where do development discussions take place? | Slack, claw-dev Google group, issue trackers on Github, Gitter, Twitter, claw-users Google group,  *** |
+| Number of contributors in the lifetime of the project | 20 major contributors |
+| Number of distinct affiliations | >10 |
+| Where do development discussions take place? | Slack, claw-dev Google group (http://groups.google.com/group/claw-dev/), issue trackers on Github, Gitter, Twitter, claw-users Google group |
 | Typical number of emails/comments per week? |  *** |
-| Typical number of commits per week? | *** |
+| Typical number of commits per week? | Last commit was 4 months ago |
 | Typical commit size | `git log --shortstat` may be useful *** |
 | How does the project accept contributions? | pull requests  |
 | Does the project have an automated test suite? | yes |
