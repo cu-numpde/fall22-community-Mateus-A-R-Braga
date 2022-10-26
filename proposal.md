@@ -6,32 +6,19 @@ Please edit this file and push to your repository.
 *Write a paragraph describing what the software does and who its
 primary audience is.*
 
-Clawpack stands for Conservation Laws Package. The Clawpack collection is based on the finite volume method and is comprised of a number of  solvers, according to http://www.clawpack.org/ the four solvers avaiable are as follows:
+Clawpack stands for Conservation Laws Package. Clawpack is a collection of solvers for linear and nonlinear hyperbolic systems of conservation laws, such as advection or acoustic type problems. Aimed at solving conservation laws, Clawpack naturally employs the finite volume method. The collection includes classic Clawpack: a general hyperbolic PDE solver (written in Fortran), AMRClaw: with adaptive mesh refinement (written in Fortran), GeoClaw: aimed at geophysical flow (written in Fortran), and PyClaw: a version of Clawpack written in Python. Applications sutiable for the suite of Clawpack solvers includes variable-coefficient advection, acoustics, Euler equations, and many more conservation problems. The primary audience varies depending on which solver is used from the collection. In general, Clawpack could be usedful to those who studying high speed flows because the package was designed to handle hyperbolic euqations. Specifically to Geoclaw, it is well suited for people interested in solving geophysics problems.
 
+The key features of the software include: 
+* Capability to solve general hyperbolic partial differential equations (PDEs)
+** Riemann solvers for many common applications are bundled with the software (A Riemann solver needs to be provided to deal with discontinuities, shocks, at the faces between cells)
+* AMRClaw and GeoClaw includes adaptive mesh refinement (AMR)
+* PyClaw allows for parallelism scalable to the tens of thousands of cores
+
+Summary list of solvers included with Clawpack:
 * Classic (single grid solvers in Fortran)
 * AMRClaw Description and Detailed Contents (adaptive mesh refinement in Fortran)
 * GeoClaw Description and Detailed Contents (geophysical flows with AMR, in Fortran)
 * PyClaw (Python version of solvers)
-
-As the above list indicates, Clawpack is written in both Fortran and Python. 
-
-The software solves both linear and nonlinear hyperbolic systems of equations, specifically conservation laws. Provided a Riemann solver is given 
-
-
-Key features include: 
-* Solution of general hyperbolic PDEs provided a Riemann solver is given 
-* Adaptive mesh refinement included in AMRClaw and GeoClaw 
-* Parallelism scalable to tens of thousands of cores or more, included in PyClaw 
-
-
-** Riemann olvers for many common applications are bundled with the software
-
-** high-resolution Godunov type methods using limiters (flux limiters?)
-
-** These finite volume methods require a “Riemann solver” to resolve the jump discontinuity at the interface between two grid cells into waves propagating into the neighboring cells. 
-
-
-
 
 
 
