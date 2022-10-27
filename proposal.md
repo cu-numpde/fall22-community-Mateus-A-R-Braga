@@ -46,9 +46,9 @@ Summary list of solvers included with Clawpack:
 Check the following boxes when complete or add a note below if you
 encountered a problem.
 
-- [*] I have installed the software
-- [*] I have run at least one example
-- [*] I have run the test suite
+- [x] I have installed the software
+- [x] I have run at least one example
+- [x] I have run the test suite
 - [ ] The test suite passes
 
 ### Notes/concerns/risks
