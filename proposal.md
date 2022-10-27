@@ -46,9 +46,9 @@ Summary list of solvers included with Clawpack:
 Check the following boxes when complete or add a note below if you
 encountered a problem.
 
-- [ ] I have installed the software
-- [ ] I have run at least one example
-- [ ] I have run the test suite
+- [*] I have installed the software
+- [*] I have run at least one example
+- [*] I have run the test suite
 - [ ] The test suite passes
 
 ### Notes/concerns/risks
@@ -68,6 +68,8 @@ Notes:
 * Concern about license: On the Clawpack website the copyright is from 1994-2020, does that mean it is no longer in effect? => "Copyright (c) 1994–2020, The Clawpack Development Team. All rights reserved."
 
 * Travis continuos integration is used 
+
+* For PyClaw 46 of 48 tests in the test suite pass and two tests fail with an error that there is no such file or directory for the verification file (the file name for the verificaiton file might be mislabeld for those tests)
 
 #### Note on copyright
 Students retain copyright on any work done in completion of a CU
