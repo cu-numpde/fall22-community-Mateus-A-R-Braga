@@ -7,7 +7,8 @@ Clawpack stands for Conservation Laws Package. Clawpack is a collection of solve
 
 The key features of the software include: 
 * Capability to solve general hyperbolic partial differential equations (PDEs)
-    * Riemann solvers for many common applications are bundled with the software (A Riemann solver needs to be provided to deal with discontinuities, shocks, at the faces between cells)
+    * Riemann solvers for many common applications are bundled with the software
+    * A Riemann solver needs to be provided to deal with discontinuities (shocks) at the faces between cells
 * AMRClaw and GeoClaw includes adaptive mesh refinement (AMR)
 * PyClaw allows for parallelism scalable to the tens of thousands of cores
 
@@ -30,7 +31,7 @@ Summary list of solvers included with Clawpack:
 | Number of contributors in the lifetime of the project | 20 major contributors |
 | Number of distinct affiliations | >10 |
 | Where do development discussions take place? | Slack, claw-dev Google group (http://groups.google.com/group/claw-dev/), issue trackers on Github, Gitter, Twitter, claw-users Google group |
-| Typical number of emails/comments per week? |  *** |
+| Typical number of emails/comments per week? |  Last conversation in claw-dev Google group was August 28, 2022 (2 months ago) |
 | Typical number of commits per week? | Last commit was 4 months ago |
 | Typical commit size | `git log --shortstat` may be useful *** |
 | How does the project accept contributions? | pull requests  |
@@ -67,6 +68,15 @@ Notes:
 * Travis continuos integration is used 
 
 * For PyClaw 46 of 48 tests in the test suite pass and two tests fail with an error that there is no such file or directory for the verification file (the file name for the verificaiton file might be mislabeld for those tests)
+
+* For the Fortran based tests all three tests in the test suite fail.
+
+* Submitted request to join Clawpack Slack. Have yet to hear back from them.
+
+* In the docs directory (after installing) there are no files
+
+* Seemed most active approximately 10 years ago, less active these days
+    * May not be the best choice going forward for a project
 
 #### Note on copyright
 Students retain copyright on any work done in completion of a CU
