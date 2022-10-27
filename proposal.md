@@ -33,7 +33,7 @@ Summary list of solvers included with Clawpack:
 | Where do development discussions take place? | Slack, claw-dev Google group (http://groups.google.com/group/claw-dev/), issue trackers on Github, Gitter, Twitter, claw-users Google group |
 | Typical number of emails/comments per week? |  Last conversation in claw-dev Google group was August 28, 2022 (2 months ago) |
 | Typical number of commits per week? | Last commit was 2 months ago |
-| Typical commit size | Approximately 100-200 additions/deletions per commit (over the past year for classic, AMRClaw, and PyClaw), approximately 9000 additions/deletions per commit (over the past year for GeoClaw) |
+| Typical commit size | Approximately 10-200 additions/deletions per commit (over the past year) |
 | How does the project accept contributions? | Pull requests  |
 | Does the project have an automated test suite? | Yes |
 | Does the project use continuous integration? | Yes |
