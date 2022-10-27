@@ -27,16 +27,16 @@ Summary list of solvers included with Clawpack:
 | Repository URL |  https://github.com/clawpack/clawpack  |
 | Main/documentation website |  http://www.clawpack.org/  |
 | Year project was started |  1994  |
-| Number of contributors in the past year | 3 |
+| Number of contributors in the past year | 3 (classic and PyClaw), 1 (GeoClaw), 2 (AMRClaw) |
 | Number of contributors in the lifetime of the project | 20 major contributors |
 | Number of distinct affiliations | >10 |
 | Where do development discussions take place? | Slack, claw-dev Google group (http://groups.google.com/group/claw-dev/), issue trackers on Github, Gitter, Twitter, claw-users Google group |
 | Typical number of emails/comments per week? |  Last conversation in claw-dev Google group was August 28, 2022 (2 months ago) |
 | Typical number of commits per week? | Last commit was 2 months ago |
-| Typical commit size | Approximately 100-200 additions/deletions per commit (over the past year) |
-| How does the project accept contributions? | pull requests  |
-| Does the project have an automated test suite? | yes |
-| Does the project use continuous integration? | yes |
+| Typical commit size | Approximately 100-200 additions/deletions per commit (over the past year for classic, AMRClaw, and PyClaw), approximately 9000 additions/deletions per commit (over the past year for GeoClaw) |
+| How does the project accept contributions? | Pull requests  |
+| Does the project have an automated test suite? | Yes |
+| Does the project use continuous integration? | Yes |
 | Are any legal/licensing steps required to contribute? | No |
 
 ### Install and run
@@ -58,28 +58,25 @@ the project requires a contributor license agreement or other
 procedural steps, please explain here.  "None at this time" is
 acceptable for this question.
 
-Notes:
+* The Clawpack community was most active approximately 5-10 years ago and is less active these days. It may not be the best choice going forward for a project.
 
-* The Pyclaw is the most active and has the most documentaiton and suport.
-    * this would be the best for a project.
+    * The Pyclaw is the most contributors and lots of documentaiton (would be the best solver of the four to choose for a project).
+    * GeoClaw had the most changes in the past year, but only one contributor.
+    * Submitted request to join Clawpack Slack but have yet to hear back from them.
+    
+* Travis continuos integration is used (service used to build and test software projects hosted on GitHub and Bitbucket).
 
 * If using either the Fortran or Python installations there is an automated test suite that runs several tests and compares the solution (parts of the soltution) to archived resutls.
 
-* For PyClaw 46 of 48 tests in the test suite pass and two tests fail with an error that there is no such file or directory for the verification file (the file name for the verificaiton file might be mislabeld for those tests)
-
-* For the Fortran based tests all three tests in the test suite fail.
+    * For PyClaw, 46 of 48 tests in the test suite pass and two tests fail with an error that there is no such file or directory for the verification file (the file name for the verificaiton file might be mislabeld for those tests)
+    * For the Fortran based tests all three tests in the test suite fail.
 
 * Permissive license: Berkeley Software Distribution (BSD) license (BSD 3-Clause)
-    * Concern about license: On the Clawpack website the copyright is from 1994-2020, does that mean it is no longer in effect? => "Copyright (c) 1994–2020, The Clawpack Development Team. All rights reserved."
+    * Concern about license: On the Clawpack website the copyright is from 1994-2020, does that mean it is no longer in effect? &rarr "Copyright (c) 1994–2020, The Clawpack Development Team. All rights reserved."
 
-* Travis continuos integration is used 
+* In the classic/doc/ directory (after installing) there are no files.
 
-* Submitted request to join Clawpack Slack. Have yet to hear back from them.
 
-* In the docs directory (after installing) there are no files
-
-* Seemed most active approximately 5-10 years ago, less active these days
-    * May not be the best choice going forward for a project
 
 #### Note on copyright
 Students retain copyright on any work done in completion of a CU
