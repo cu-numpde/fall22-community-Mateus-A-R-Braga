@@ -69,10 +69,11 @@ acceptable for this question.
 * If using either the Fortran or Python installations there is an automated test suite that runs several tests and compares the solution (parts of the soltution) to archived resutls.
 
     * For PyClaw, 46 of 48 tests in the test suite pass and two tests fail. The two tests failed with the error "no such file or directory" for the verification file (the file name for the verificaiton file might be mislabeld for those tests)
-    * For the Fortran solvers, all three tests in the test suite failed.
+    * For the calssic solver, all three tests in the test suite failed.
 
 * Permissive license: Berkeley Software Distribution (BSD) license (BSD 3-Clause)
-    * Concern about license: On the Clawpack website the copyright is from 1994-2020, does that mean it is no longer in effect? "Copyright (c) 1994–2020, The Clawpack Development Team. All rights reserved."
+    * Concern about license: On the Clawpack website the copyright is from 1994-2020, does that mean it is no longer in effect? 
+        * "Copyright (c) 1994–2020, The Clawpack Development Team. All rights reserved."
 
 <!--* In the classic/doc/ directory (after installing) there are no files.-->
 
